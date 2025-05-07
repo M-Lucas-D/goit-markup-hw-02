@@ -11,10 +11,12 @@
 --navy-blue-grey-color: #2E2F42;
 --white-color: #FFFFFF;
 --dairy-color: #FCFCFC;
+--roboto-font-family: 'Roboto', sans-serif;
+--releway-font-family: 'Raleway', sans-serif;
 }
 
 .body {
-   font-family: 'Roboto', sans-serif;
+   font-family: var(--roboto-font-family);
    color: var(--slate-color);
    background-color: var(--white-color);
 }
@@ -22,18 +24,31 @@
 #home {
    background-color: var(--white-color);
 }
-.logo .web {
+.logo {
+   font-family: var(--releway-font-family);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--iris-color);
+}
+.logo link {
+   text-decoration: none;
+}
+.logo .first-web {
    color: var(--iris-color);
 }
 .logo .studio {
    color: var(--navy-blue-color);
 }
 
-.menu > li > a {
+.list  li > a {
    color: var(--navy-blue-color);
 }
-.contact > li > a {
+.contact li > a {
    color: var(--slate-color);
+   list-style: none;
 }
 
 .header-section {
@@ -75,7 +90,7 @@ footer {
    background-color: var(--navy-blue-color);
 }
 
-#contacts h2 > .web {
+#contacts h2 > .first-web {
    color: var(--iris-color);
 }
 #contacts h2 > .studio {
