@@ -15,7 +15,7 @@
 --releway-font-family: 'Raleway', sans-serif;
 }
 
-.body {
+body {
    font-family: var(--roboto-font-family);
    color: var(--slate-color);
    background-color: var(--white-color);
@@ -33,24 +33,52 @@
    text-transform: uppercase;
    color: var(--iris-color);
 }
-.logo link {
+.logo {
    text-decoration: none;
 }
-.logo .first-web {
+.logo strong{
    color: var(--iris-color);
 }
 .logo .studio {
-   color: var(--navy-blue-color);
+   color: var(--navy-blue-grey-color);
 }
 
-.list  li > a {
-   color: var(--navy-blue-color);
+.link {
+   text-decoration: none;
 }
-.contact li > a {
+.nav-link {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    color: var(--slate-color);
+ }
+ 
+ .nav-link:hover,
+ .nav-link:focus {
+   color: var(--oceancolor);
+ }
+
+
+.list {
    list-style: none;
 }
 
+.contact-address {
+   font-style: normal;
+ }
+ 
+ .contact-link {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate-color);
+ }
+ 
+ .contact-link:hover,
+ .contact-link:focus {
+   color: var(--oceancolor);
+ }
 .header-section {
    background-color: var(--navy-blue-color);
 }
