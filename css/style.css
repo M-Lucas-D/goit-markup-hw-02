@@ -60,7 +60,7 @@ body {
  }
 
 
-.list {
+.list-header {
    list-style: none;
 }
 
@@ -69,9 +69,11 @@ body {
  }
  
  .contact-link {
-   font-size: 16px;
-   line-height: 1.5;
+   font-size: 36px;
+   line-height: 1.11;
    letter-spacing: 0.02em;
+   text-align: center;
+   text-transform: capitalize;
    color: var(--slate-color);
  }
  
@@ -81,20 +83,43 @@ body {
  }
 .header-section {
    background-color: var(--navy-blue-color);
-}
-.header-section_title {
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.03em;
    color: var(--white-color);
+
 }
+
 .header-section button {
    color: var(--white-color);
    background-color: var(--iris-color);
+   font-family: var(--roboto-font-family);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   cursor: pointer;
+}
+.header-section button:hover, 
+.header-section button:focus {
+   background-color: var(--oceancolor);
 }
 
-.body-section h3 {
+.list .info {
    color: var(--navy-blue-color);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   
 }
-.body-section p {
+.list .description{
    color: var(--slate-color);
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   
 }
 
 .about-us h2 {
