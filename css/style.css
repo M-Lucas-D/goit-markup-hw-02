@@ -35,6 +35,12 @@ body {
 }
 .logo {
    text-decoration: none;
+   font-family: var(--releway-font-family);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
 }
 .logo strong{
    color: var(--iris-color);
@@ -60,8 +66,9 @@ body {
  }
 
 
-.list-header {
+.list {
    list-style: none;
+   
 }
 
 .contact-address {
@@ -106,7 +113,7 @@ body {
    background-color: var(--oceancolor);
 }
 
-.list .info {
+.main-list .info {
    color: var(--navy-blue-color);
    font-weight: 500;
    font-size: 20px;
@@ -114,7 +121,7 @@ body {
    letter-spacing: 0.02em;
    
 }
-.list .description{
+.main-list .description{
    color: var(--slate-color);
    font-size: 16px;
    line-height: 1.5;
@@ -143,23 +150,55 @@ footer {
    background-color: var(--navy-blue-color);
 }
 
-#contacts h2 > .first-web {
+.contacts {
+   font-family: var(--releway-font-family);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
    color: var(--iris-color);
 }
-#contacts h2 > .studio {
+.conctacts link {
+   text-decoration: none;
+   font-family: var(--releway-font-family);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+.contacts h2 > .first-web {
+   color: var(--iris-color);
+}
+.contacts h2 > .studio {
    color: var(--cloud-color);
 }
-#contacts p {
+.contacts p {
    color: var(--cloud-color);
 }
 
 /* portofolio.html */
-
+.buttons {
+   font-family: var(--roboto-font-family);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--iris-color);
+   background-color: var(--cloud-color);
+   cursor: pointer;
+}
 .buttons > li > button {
    color: var(--iris-color);
    background-color: var(--cloud-color);
 }
-.buttons > li > button:hover {
+.buttons:hover {
    color: var(--white-color);
    background-color: var(--iris-color);
+}
+.buttons:focus {
+      color: var(--white-color);
+      background-color: var(--oceancolor);
+
 }
