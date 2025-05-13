@@ -34,13 +34,14 @@ body {
    color: var(--iris-color);
 }
 .logo {
-   text-decoration: none;
    font-family: var(--releway-font-family);
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   
+
 }
 .logo strong{
    color: var(--iris-color);
@@ -51,6 +52,7 @@ body {
 
 .link {
    text-decoration: none;
+   
 }
 .nav-link {
    font-weight: 500;
